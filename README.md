@@ -12,9 +12,9 @@ The provided code demonstrate building essential components for an e-commerce ap
 
 These lines of code leverage React hooks, Bootstrap integration, and backend API communication to create a functional, user-friendly, and maintainable e-commerce application.
 
-#You will be able to do the following with the app.
+# You will be able to do the following with the app.
 
-##Customer Managment
+## Customer Managment
 1.Create Customer Form
   You will be able to create a component that captures a customers information.
 2. Customer Details
