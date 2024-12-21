@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# E-Commerce API Using React App and BootStrap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is used in the following app
 
-## Available Scripts
+The provided code demonstrate building essential components for an e-commerce application using React, focusing on best practices such as validation, state management, UI styling, and error handling:
 
-In the project directory, you can run:
+1. Form Validation: Forms validate user input before submission, ensuring fields are properly formatted and preventing incomplete submissions.
 
-### `npm start`
+2. Product Catalog with React-Bootstrap: Displays a responsive product list using pre-designed Bootstrap components, making it visually appealing and easy to navigate.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Error Handling: Implements a reusable error message component for centralized and consistent error display across the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+These lines of code leverage React hooks, Bootstrap integration, and backend API communication to create a functional, user-friendly, and maintainable e-commerce application.
 
-### `npm test`
+#You will be able to do the following with the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Customer Managment
+1.Create Customer Form
+  You will be able to create a component that captures a customers information.
+2. Customer Details
+  You will be able to read Customer Detials based off their uniquie id.
+3. Update Customer Form
+  The Customer Form information has a option to be updated if need be.
+4. Delete Customer Form
+  Fuction to delete a Customer Form if they are no longer with the service.
 
-### `npm run build`
+## Product Catalog
+1. Product List
+  View a list of all avilable products
+2. Create Product Form
+  Create a new product 
+3. Prodcut Details
+   View product detials such as name and price
+4. Update Product Form
+  Fuction to update product details
+5. Delete Product
+  Fuction to delete a product from the system
+6. Confirmation Module
+   Uniquie id for products in the system
+7. View and Manage Product Stock
+  Be able to look at products in stock and make adjustments
+8. Restock Products
+   Restock products in the system automatically when the fall below a certain stock level.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Order Processing
+1. Place Order 
+   Create a form that keeps track of what items are in the order
+2. Manage Order History
+  Allow scustomers to look at there history of orders
+3. Cancel Order
+  Ability to cancel a order
+4. Caculate Order Total Price 
+  Add all product prices togather in the order togather to give a total
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
