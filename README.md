@@ -15,12 +15,12 @@ These lines of code leverage React hooks, Bootstrap integration, and backend API
 # You will be able to do the following with the app.
 
 ## Customer Managment
-1.Create Customer Form
+1. Create Customer Form
   You will be able to create a component that captures a customers information.
 2. Customer Details
   You will be able to read Customer Detials based off their uniquie id.
 3. Update Customer Form
-  The Customer Form information has a option to be updated if need be.
+    The Customer Form information has a option to be updated if need be.
 4. Delete Customer Form
   Fuction to delete a Customer Form if they are no longer with the service.
 
